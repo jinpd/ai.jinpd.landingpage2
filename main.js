@@ -137,7 +137,7 @@ if (contactForm) {
 
         // EmailJS Send
         // Replace with your actual Service ID and Template ID
-        const serviceID = 'YOUR_SERVICE_ID';
+        const serviceID = 'service_dnmhapk';
         const templateID = 'YOUR_TEMPLATE_ID';
 
         emailjs.sendForm(serviceID, templateID, this)
@@ -162,3 +162,4 @@ function showError(inputId, errorId) {
     document.getElementById(inputId).parentElement.classList.add('error');
     document.getElementById(errorId).style.display = 'block';
 }
+
